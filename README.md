@@ -11,7 +11,7 @@ Then...
 ```
 import {easyampm} from 'easyampm';
 
-let converted_time = easyAmPm({
+let converted_time = easyampm({
     time: 6300,
     format: "12H",
     spaced: false
@@ -20,7 +20,7 @@ let converted_time = easyAmPm({
 
 ## Options
 
-easyAmPm() supports 3 options (1 of them is required)
+easyampm() supports 3 options (1 of them is required)
 
 - _time_ - _seconds_ (Required | Must be an Integer number between 0 to 86399)
 - _format_ - _12H | 24H_ (Default is 12H)
@@ -30,4 +30,5 @@ easyAmPm() supports 3 options (1 of them is required)
 
 - _spaced_ -
   _true_ => 12:10 AM
+
   _false_ => 12:10 AM
