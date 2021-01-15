@@ -9,7 +9,7 @@ This is a simple package for converting given Seconds (second count starts from 
 Then...
 
 ```
-import {easyAmPm} from 'easyampm';
+import {easyampm} from 'easyampm';
 
 let converted_time = easyAmPm({
     time: 6300,
