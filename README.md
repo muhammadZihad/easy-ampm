@@ -4,12 +4,12 @@ This is a simple package for converting given Seconds (second count starts from 
 
 # Installation
 
-`npm i easyAmPm --save`
+`npm i easyampm --save`
 
 Then...
 
 ```
-import {easyAmPm} from 'easyAmPm';
+import {easyAmPm} from 'easyampm';
 
 let converted_time = easyAmPm({
     time: 6300,

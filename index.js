@@ -1,4 +1,4 @@
-function easyAmPm(object) {
+function easyampm(object) {
     if (typeof object === 'undefined')
         throw new Error("Object {format: '12H', time: 1212} required");
     if (typeof object.time === 'undefined')
@@ -36,4 +36,4 @@ function doubledigit(digit) {
     return digit.toString();
 }
 
-module.exports.easyAmPm = easyAmPm;
+module.exports.easyampm = easyampm;
