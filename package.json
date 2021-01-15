@@ -1,6 +1,6 @@
 {
   "name": "easyampm",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This is a simple package for converting given Seconds (second count starts from 12:00AM) into 12/24H time format.",
   "main": "index.js",
   "scripts": {
